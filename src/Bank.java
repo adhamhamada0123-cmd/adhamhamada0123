@@ -23,7 +23,7 @@ class BankAccountSimulator {
 
             if (!input.hasNextInt()) {
                 System.out.println("Invalid input. Please enter a number (1-4).");
-                input.next(); // تجاهل الإدخال غير الصحيح
+                input.next();
                 continue;
             }
 
